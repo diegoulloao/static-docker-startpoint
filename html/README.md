@@ -1,0 +1,1 @@
+## Archivos html estáticos van aquí.

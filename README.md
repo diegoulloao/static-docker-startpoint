@@ -1,28 +1,28 @@
 # Ensambler®
 
 - **Repositorio:**
-	- Servidor nginx para archivos estáticos html
+	- Servidor nginx para archivos estáticos html.
 - **Stack:** CSS, JS, HTML5.
 - **Servicios:** Nginx.
 - **Año:** 2020.
 
 Este repositorio provee un servidor nginx para servir páginas estáticas.
 
-## Paso 1. Instalación Proyecto en Entorno local.
+## Paso 1. Clonar repositorio.
 
 Abrir Terminal, navegar hasta directorio personal de Proyectos y ejecutar:
 
 ```bash
-git clone git@github.com:Ensambler/static-docker-startpoint.git
+git clone git@github.com:Ensambler/static-docker-startpoint.git nombre-proyecto
 ```
 
 ## Paso 2. Crear ficheros página
 
-Debes crear/copiar tu página web en el directorio `html`. Sólo archivos con extension .html podrán ser interpretados.
+Navegar al directorio `nombre-proyecto` clonado, allí debes crear/copiar tu página web dentro del directorio `html`. Sólo archivos con extension .html podrán ser interpretados.
 
-## Paso 3. Levantar Servicios.
+## Paso 3. Levantar el Servicio.
 
-En directorio del proyecto "static-docker-startpoint" ejecutar:
+En directorio del proyecto `nuevo-proyecto` ejecutar:
 
 ```
 docker-compose up
