@@ -1,4 +1,4 @@
-# Ensambler®
+# Static html Server
 
 - **Repositorio:**
 	- Servidor nginx para archivos estáticos html.
@@ -13,7 +13,7 @@ Este repositorio provee un servidor nginx para servir páginas estáticas.
 Abrir Terminal, navegar hasta directorio personal de Proyectos y ejecutar:
 
 ```bash
-git clone git@github.com:Ensambler/static-docker-startpoint.git nombre-proyecto
+git clone git@github.com:diegoulloao/static-docker-startpoint.git nombre-proyecto
 ```
 
 ## Paso 2. Crear ficheros página
@@ -30,4 +30,4 @@ docker-compose up
 
 --
 
-Ensambler® 2020. Ingeniería de Software para Soluciones Empresariales Integradas.
+**@diegoulloao · 2020**
