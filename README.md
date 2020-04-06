@@ -1,28 +1,28 @@
 # Static html Server
 
-- **Repositorio:**
-	- Servidor nginx para archivos estáticos html.
+- **Repository:**
+	- nginx server for html static files.
 - **Stack:** CSS, JS, HTML5.
-- **Servicios:** Nginx.
-- **Año:** 2020.
+- **Services:** Nginx.
+- **Year:** 2020.
 
-Este repositorio provee un servidor nginx para servir páginas estáticas.
+This repository provides a nginx server for static html files.
 
-## Paso 1. Clonar repositorio.
+## Step 1. Clone the repository.
 
-Abrir Terminal, navegar hasta directorio personal de Proyectos y ejecutar:
+Open a Terminal, browse your projects location and run:
 
 ```bash
-git clone git@github.com:diegoulloao/static-docker-startpoint.git nombre-proyecto
+git clone git@github.com:diegoulloao/static-docker-startpoint.git project-name
 ```
 
-## Paso 2. Crear ficheros página
+## Step 2. Create static html files
 
-Navegar al directorio `nombre-proyecto` clonado, allí debes crear/copiar tu página web dentro del directorio `html`. Sólo archivos con extension .html podrán ser interpretados.
+Browse `html` directory in the`project-name`, copy or create in there your own html files.
 
-## Paso 3. Levantar el Servicio.
+## Step 3. Running the service.
 
-En directorio del proyecto `nuevo-proyecto` ejecutar:
+Into `project-name` directory, run:
 
 ```
 docker-compose up
