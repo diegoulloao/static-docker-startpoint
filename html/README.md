@@ -1,1 +1,1 @@
-## Archivos html estáticos van aquí.
+## Static html files goes here.
