@@ -20,13 +20,15 @@ git clone git@github.com:diegoulloao/static-docker-startpoint.git project-name
 
 Enter in the`project-name` directory and browse `html` folder, create your html files.
 
-## Step 3. Running the service.
+## Step 3. Run the service.
 
 Run:
 
 ```
 docker-compose up
 ```
+
+Open up your browser to http://localhost:8080/ and you should see your page as intended. **Only .html extension files will be interpreted.**
 
 --
 
