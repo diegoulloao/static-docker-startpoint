@@ -13,7 +13,7 @@ This repository provides a nginx server for static html files.
 Browse your projects location and run:
 
 ```bash
-git clone git@github.com:diegoulloao/static-docker-startpoint.git project-name
+git clone https://github.com/diegoulloao/static-docker-startpoint.git project-name
 ```
 
 ## Step 2. Create static html files.
